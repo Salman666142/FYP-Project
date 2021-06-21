@@ -1,0 +1,21 @@
+<html>
+            <body>
+            <center><img src="{{ user_image }}" alt="Graph" width="460" height="345"></center>
+                <h3>Name: {{name}}</h3>
+                <h4>{{wait}}</h4>
+                </br>
+                </br>
+		<form action="/txt" method="post" enctype="multipart/form-data">
+                    <p>Feedback:</p>
+                    <input type="text" name="feed">
+                    <button type="submit" name="feedback" class="btn btn-primary btn-block btn-large">feedback</button>
+                </form>
+                </br>
+                </br>
+
+                 </br>
+                </br>
+		<input type=button onClick="location.href='../'"
+		 value='Another Prediction'>
+            </body>
+</html>

@@ -1,0 +1,6 @@
+<html>
+            <body>
+                <h1>{{wait}}</h1>
+                
+            </body>
+</html>
